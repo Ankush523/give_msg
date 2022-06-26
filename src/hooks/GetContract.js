@@ -8,7 +8,7 @@ const GetContract = () => {
     const{data:signer}=useSigner();
 
     const contract = useContract({
-        addressOrName: '0xd78519072c5fb615A6C6D78a930AE882C5962E96',
+        addressOrName: '0x9538b8B90D5f65965CDB0d900998f7E2B75F4505',
         contractInterface: GiveTipABI,
         signerOrProvider: signer,
       })
