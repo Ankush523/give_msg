@@ -16,11 +16,11 @@ const GiveTip = () => {
     <div>
         <div className='flex flex-row w-[100vw] h-[fit-content] p-[20px] shadow-xl justify-between'>
             <br/>
-            <label>Message : </label>
-            <input onChange={e=>setMsg(e.target.value)} />
+            <label className='font-mono font-bold   w-[fit-content] p-1 px-2 py-2'>Message : </label>
+            <input className='rounded-xl shadow-xl' onChange={e=>setMsg(e.target.value)} />
             <br/>
-            <label>Creator Address : </label>
-            <input onChange={e=>setAddr(e.target.value)} />
+            <label className='font-mono font-bold  w-[fit-content] p-1 px-2 py-2'>Creator Address : </label>
+            <input className='rounded-xl shadow-xl' onChange={e=>setAddr(e.target.value)} />
             <br/>
         </div>
         <br/>
