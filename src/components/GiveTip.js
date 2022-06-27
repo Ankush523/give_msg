@@ -25,8 +25,8 @@ const GiveTip = () => {
         </div>
         <br/>
         <div>
-        <button className=' font-mono w-[fit-content] bg-blue-400 bg-indigo-500  shadow-lg shadow-indigo-500/50  
-                            rounded-xl mt-4 ml-4 p-1  px-4 ' onClick={sendmsg}>Give Message</button>
+        <button className='font-mono w-[fit-content] bg-blue-400 bg-indigo-500  shadow-lg shadow-indigo-500/50  
+                           rounded-xl mt-4 ml-4 p-1  px-4 ' onClick={sendmsg}>Give Message</button>
         </div>
     </div>
      );
