@@ -18,7 +18,7 @@ const TipList = () => {
 
     return ( 
         <div>
-            <button onClick={getList} >Get List</button>
+            <button className='font-mono flex ml-4 bg-blue-400 rounded-xl w-[fit-content] pl-2 pr-2 shadow-xl' onClick={getList} >Get List</button>
             {
                 Object.keys(lists).map((list,index)=>(
                     <p>{lists[index].message}</p>

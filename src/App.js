@@ -13,6 +13,7 @@ function App() {
       <br/>
       <GiveTip/>
       <TipList/>
+      <h1>Hello</h1>
     </div>
   );
 }
