@@ -11,9 +11,9 @@ function App() {
       <label className='text-black font-mono text-[20px] bg-pink-300 
        p-3 w-[fit-content] rounded-xl mt-4 ml-4 bg-indigo-500 shadow-lg shadow-indigo-500/50'> Current Wallet : {GetAccount()}</label>
       <br/>
+      <br/>
       <GiveTip/>
       <TipList/>
-      <h1>Hello</h1>
     </div>
   );
 }
